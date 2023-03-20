@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <style>
+            #main
+            {
+                display: flex;
+                flex-direction: row;
+                width: auto;
+            }
+            #formss
+            {
+                margin: auto;
+                text-align: center;
+            }
+            #carouselExampleAutoplaying
+            {
+                margin: auto;
+                width: 1000px;
+            }
+            #h
+            {
+                color: black;
+                background-color: whitesmoke;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="https://www.tnstc.in/home.html"><img src="images/TNSTC-Logo.jpg" alt="tnstc" style="width: 100px;"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact Us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="container-fluid" id="main">
+                <div id="formsss">
+                    <p><b>CREATE AN ACCOUNT</b></p>
+                    <div class="input-group">
+                        <span class="input-group-text">First and last name</span>
+                        <input type="text" aria-label="First name" class="form-control">
+                        <input type="text" aria-label="Last name" class="form-control">
+                      </div>
+                    <div class="mb-3 row">
+                        <label for="dob" class="col-sm-5 col-form-label">DATE OF BIRTH</label>
+                        <div class="col-sm-7">
+                          <input type="date" class="form-control" id="dob" placeholder="01-01-2000">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="mail" class="col-sm-5 col-form-label">EMAIL ID</label>
+                        <div class="col-sm-7">
+                          <input type="email" class="form-control" id="mail" placeholder="taylorswift13@gmail.com">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="mob" class="col-sm-5 col-form-label">MOBILE NUMBER</label>
+                        <div class="col-sm-7">
+                          <input type="tel" class="form-control" id="mob" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="license" class="col-sm-5 col-form-label">UPLOAD YOUR LICENSE</label>
+                        <div class="col-sm-7">
+                          <input type="file" class="form-control" id="license">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-5 col-form-label">SET PASSWORD</label>
+                        <div class="col-sm-7">
+                          <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="conformPassword" class="col-sm-5 col-form-label">CONFIRM PASSWORD</label>
+                        <div class="col-sm-7">
+                          <input type="password" class="form-control" id="conformPassword">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <div class="col-sm-2"></div>
+                        <button type="button" class=" col-sm-8 btn btn-outline-info">Submit</button>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <div class="mb-3 row">
+                        <div class="col-sm-2"></div>
+                        <button type="button" class=" col-sm-8 btn btn-outline-primary" onclick="window.location.href = 'exp3lab.html';">I'll do another time</button>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/traffic-rules-and-traffic-violations-in-chennai.png" class="d-block w-100" alt="dd">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="h">CHENNAI-TAMIL NADU</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/traffic-rules-violations-pune.png" class="d-block w-100" alt="ins">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="h">PUNE-MAHARASHTRA</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/traffic-rules-and-fines-in-jaipur.png" class="d-block w-100" alt="shs">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="h">JAIPUR-RAJASTHAN</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="background-color: white; color: black; text-align: center;">
+                        <h1>ALL CITIES SAME RULES. JAIHIND .</h1>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
